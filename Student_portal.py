@@ -4,9 +4,9 @@ import base64
 def connect_db():
     try:
         conn=mysql.connector.connect(
-            host="localhost",
+            host="host",
             user="root",
-            password="aaradhana_0910",
+            password="yourpassword",
             database="student_db"
         )
         return conn
